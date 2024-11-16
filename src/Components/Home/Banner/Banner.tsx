@@ -13,7 +13,7 @@ export default class Banner extends Component {
                 <p data-aos="fade-up" data-aos-duration = "1000">My name is Dilshod. I am from Uzbekistan, but I live in South Korea. I am a full-stack developer and an architect. I have 3 years of experience in full-stack development and architecture.</p>
             </div>
             <div className="right">
-                <img src="https://www.dil-shod.uz/photo.png" alt=""  data-aos-duration = "3000" className='animate__animated animate__zoomIn'/>
+                <img src="https://dilshodblog.vercel.app/photo.png" alt=""  data-aos-duration = "3000" className='animate__animated animate__zoomIn'/>
             </div>
         </div>
       </div>
