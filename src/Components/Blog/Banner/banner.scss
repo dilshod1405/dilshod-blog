@@ -1,0 +1,17 @@
+@media screen and (max-width: 850px) and (min-width: 360px) {
+    .banner{
+        width: auto;
+
+        .content{
+            
+            .image{
+                display: block;
+                width: 350px;
+                
+                .image{
+                    margin-top: 5%;
+                }
+            }
+        }
+    }
+}

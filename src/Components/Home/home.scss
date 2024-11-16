@@ -1,0 +1,11 @@
+.home{
+    z-index: 2;  
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (max-width: 850px) and (min-width: 360px){
+    .home{
+        width: auto;
+    }
+}

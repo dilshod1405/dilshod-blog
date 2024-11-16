@@ -1,0 +1,60 @@
+
+    .info{
+        overflow-x: hidden;
+
+        .content{
+    
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+    
+                li{
+                    display: block;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10px 0px;
+    
+                    .icons{
+                        color: #39d4ba;
+                        font-size: 62px;
+                        margin: auto;
+                        display: block;
+                        filter: drop-shadow(0 0 0.8rem #39d4bad3);
+                    }
+    
+                    .title{
+                        color: #fff;
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+    
+                    .number{
+                        color: #39d4ba;
+                        font-size: 40px;
+                        font-weight: 400;
+                        text-align: center;
+                        font-family: serif;
+                    }
+    
+                }
+            }
+        }
+    }
+
+
+@media screen and (max-width: 850px) and (min-width: 360px){
+    .info{
+        width: auto;
+
+        .content{
+            width: auto;
+
+            ul{
+                flex-direction: column;
+            }
+        }
+    }
+}
